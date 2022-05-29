@@ -9,6 +9,19 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
+<!-- Import the component -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<!-- Use it like any other HTML element -->
+<model-viewer
+    alt="Kepler's Lobster"
+    src="./kepler_lobster.glb"
+    ar ar-modes="webxr scene-viewer quick-look"
+    environment-image="neutral" poster="shared-assets/models/NeilArmstrong.webp"
+    seamless-poster shadow-intensity="1" camera-controls enable-pan>
+</model-viewer>
+
+
 <body class="container justify-content-center mt-3">
     <h1>SHS Design Graphique II</h1>
     <p> by Alexia Duriez, Kepler Warrington-Arroyo, Yiyuan Fang <br>
