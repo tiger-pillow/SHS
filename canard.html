@@ -1,0 +1,26 @@
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=no,
+  minimum-scale=1.0, maximum-scale=1.0">
+    <!-- Import the component -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <!-- Use it like any other HTML element -->
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        model-viewer {
+            width: 100%;
+            height: 100%
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Use it like any other HTML element -->
+    <model-viewer src="./assets/canard.glb" ios-src="./assets/canard.usdz" alt="A 3D model of a shrimp/beetle hybrid"
+        ar autoplay animation-name="creatureAction" auto-rotate camera-controls>
+    </model-viewer>
+</body>
